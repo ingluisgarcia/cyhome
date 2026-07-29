@@ -25,7 +25,6 @@ export default function StreamerInfo({ status }) {
             ))}
           </div>
 
-          <LiveStatus status={status} />
         </div>
       </div>
 

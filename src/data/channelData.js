@@ -33,7 +33,7 @@ export const channelPanels = [
       { label: 'Mouse', value: 'Logitech G203' },
       { label: 'Teclado', value: 'Redragon K552RGB Kumara' },
       { label: 'Webcam', value: 'Logitech C930e, Trust Full HD, Microsoft HD Webcam' },
-      { label: 'Micrófono', value: 'Maono AU-A04' },
+      { label: 'Micrófono', value: 'Maono AU-A04, DJI Mic Mini 2' },
       { label: 'Volante', value: 'Logitech G920 + Driving Force™ Shifter' },
       { label: 'Mando', value: 'Manba One' },
     ],
