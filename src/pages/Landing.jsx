@@ -21,8 +21,8 @@ export default function Landing() {
 
       <main className="layout">
         <StreamerInfo status={status} />
-        <ChannelPanels />
         <SocialLinks />
+        <ChannelPanels />
       </main>
 
       <footer className="site-footer">
