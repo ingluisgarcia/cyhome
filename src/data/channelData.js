@@ -28,7 +28,7 @@ export const channelPanels = [
       { label: 'CPU', value: 'AMD Ryzen 7 5700X' },
       { label: 'RAM', value: '24GB DDR4' },
       { label: 'Board', value: 'MSI A520M-A PRO' },
-      { label: 'Tarj. Gráfica', value: 'NVIDIA GeForce RTX 3050' },
+      { label: 'Tarj. Gráfica', value: 'NVIDIA GeForce RTX 5050' },
       { label: 'Pantallas', value: 'Samsung S22F350 (x2)' },
       { label: 'Mouse', value: 'Logitech G203' },
       { label: 'Teclado', value: 'Redragon K552RGB Kumara' },
