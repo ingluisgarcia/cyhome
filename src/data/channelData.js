@@ -16,7 +16,7 @@ export const channelPanels = [
     title: 'Sobre mí',
     items: [
       'Pueden llamarme Cymaniatico o simplemente Cy.',
-      'Tengo 35 años.',
+      'Tengo 36 años.',
       'Soy de Santa Marta, Colombia.',
       'Soy Ingeniero de Sistemas, profesor, otaku (de los que sí se bañan XD), gamer.',
     ],
