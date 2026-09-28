@@ -1,3 +1,15 @@
+const birthDate = new Date(1989, 10, 24)
+
+function getAge(date) {
+  const today = new Date()
+  let age = today.getFullYear() - date.getFullYear()
+  const hadBirthday =
+    today.getMonth() > date.getMonth() ||
+    (today.getMonth() === date.getMonth() && today.getDate() >= date.getDate())
+  if (!hadBirthday) age--
+  return age
+}
+
 export const channel = {
   username: 'cymaniatico',
   displayName: 'Cymaniatico',
@@ -16,7 +28,7 @@ export const channelPanels = [
     title: 'Sobre mí',
     items: [
       'Pueden llamarme Cymaniatico o simplemente Cy.',
-      'Tengo 36 años.',
+      `Tengo ${getAge(birthDate)} años.`,
       'Soy de Santa Marta, Colombia.',
       'Soy Ingeniero de Sistemas, profesor, otaku (de los que sí se bañan XD), gamer.',
     ],
